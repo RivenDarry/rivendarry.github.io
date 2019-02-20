@@ -43,29 +43,18 @@ body {
 	width: 5rem;
 	height: 10.3rem;
 	margin-left: .16rem;
-<<<<<<< HEAD
-=======
 	
->>>>>>> f2d87959fc545605dd9b81112c5f5e403d50f4ff
 }
 
 .shopMap {
 	width: 5rem;
 	height: 8.7rem;
 	display: block;
-<<<<<<< HEAD
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-}
-
-.block:nth-child(1) .shopMap {
-=======
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 .block:nth-child(1) .shopMap{
->>>>>>> f2d87959fc545605dd9b81112c5f5e403d50f4ff
 	background-image: url(../img/1.png);
 }
 
@@ -77,24 +66,6 @@ body {
 	background-image: url(../img/31.png);
 }
 
-<<<<<<< HEAD
-.block:nth-child(4) .shopMap {
-	background-image: url(../img/41.png);
-}
-
-.block:nth-child(5) .shopMap {
-	background-image: url(../img/51.png);
-}
-
-.block:nth-child(6) .shopMap {
-	background-image: url(../img/6.png);
-}
-
-.downloadBtn {
-	width: 2.7rem;
-	height: .8rem;
-	background: url(../img/downloadBtn.png)no-repeat;
-=======
 .block:nth-child(4) .shopMap{
 	background-image: url(../img/41.png);
 }
@@ -109,14 +80,9 @@ body {
 	width: 2.7rem;
 	height: .8rem;
 	background:url(../img/downloadBtn.png)no-repeat;
->>>>>>> f2d87959fc545605dd9b81112c5f5e403d50f4ff
 	background-size: 100% 100%;
 	display: block;
 	position: relative;
 	left: calc(50% - 1.35rem);
 	margin-top: .22rem;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> f2d87959fc545605dd9b81112c5f5e403d50f4ff
