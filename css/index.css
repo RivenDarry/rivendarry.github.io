@@ -28,7 +28,7 @@ body {
 	width: 10.8rem;
 	height: 31.8rem;
 	position: absolute;
-	top: 8.5rem;
+	top: 5.5rem;
 	left: 0;
 	overflow: hidden;
 	margin: 0;
@@ -43,7 +43,7 @@ body {
 	width: 5rem;
 	height: 10.3rem;
 	margin-left: .16rem;
-	
+
 }
 
 .shopMap {
@@ -66,20 +66,22 @@ body {
 	background-image: url(../img/31.png);
 }
 
-.block:nth-child(4) .shopMap{
+.block:nth-child(4) .shopMap {
 	background-image: url(../img/41.png);
 }
+
 .block:nth-child(5) .shopMap {
 	background-image: url(../img/51.png);
 }
-.block:nth-child(6) .shopMap{
+
+.block:nth-child(6) .shopMap {
 	background-image: url(../img/6.png);
 }
 
-.downloadBtn{
+.downloadBtn {
 	width: 2.7rem;
 	height: .8rem;
-	background:url(../img/downloadBtn.png)no-repeat;
+	background: url(../img/downloadBtn.png)no-repeat;
 	background-size: 100% 100%;
 	display: block;
 	position: relative;
