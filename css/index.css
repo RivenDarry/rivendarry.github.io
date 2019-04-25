@@ -55,27 +55,27 @@ body {
 }
 
 .block:nth-child(1) .shopMap{
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/1.png);
 }
 
 .block:nth-child(2) .shopMap {
-	background-image: url(../img/2.jpg);
+	background-image: url(../img/2.png);
 }
 
 .block:nth-child(3) .shopMap {
-	background-image: url(../img/3.jpg);
+	background-image: url(../img/3.png);
 }
 
 .block:nth-child(4) .shopMap {
-	background-image: url(../img/4.jpg);
+	background-image: url(../img/4.png);
 }
 
 .block:nth-child(5) .shopMap {
-	background-image: url(../img/5.jpg);
+	background-image: url(../img/5.png);
 }
 
 .block:nth-child(6) .shopMap {
-	background-image: url(../img/6.jpg);
+	background-image: url(../img/6.png);
 }
 
 .downloadBtn {
