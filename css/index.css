@@ -26,9 +26,9 @@ body {
 
 .themes {
 	width: 10.8rem;
-	height: 31.8rem;
+	height: 34rem;
 	position: absolute;
-	top: 7.5rem;
+	top: 7.7rem;
 	left: 0;
 	overflow: hidden;
 	margin: 0;
@@ -40,18 +40,17 @@ body {
 	position: relative;
 	margin: 0;
 	padding: 0;
-	width: 5rem;
-	height: 10.3rem;
-	margin-left: .16rem;
-
+	width: 4.5rem;
+	height: 11.6rem;
+	margin-left: .5rem;
 }
 
 .shopMap {
-	width: 5rem;
-	height: 8.7rem;
+	width: 4.5rem;
+	height: 8rem;
 	display: block;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 .block:nth-child(1) .shopMap{
@@ -87,4 +86,13 @@ body {
 	position: relative;
 	left: calc(50% - 1.35rem);
 	margin-top: .22rem;
+}
+.heytap{
+	display: block;
+	width:95.92%;
+	height: auto;
+	position:fixed;
+	left:2.04%;
+	bottom: 3%;
+	z-index: 10;
 }

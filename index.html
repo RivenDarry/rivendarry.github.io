@@ -1,66 +1,108 @@
 <html>
 
 	<head>
-		<title></title>
+		<title>小崽子剧场</title>
 		<meta name="viewport" content="width=1080">
+		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
-		<script type="text/javascript">
-			(function(doc, win) {
-				var docEl = doc.documentElement,
-					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-					recalc = function() {
-						var clientWidth = docEl.clientWidth;
-						var baseWidth = 1080;
-						var baseFontSize = 100;
-						if(!clientWidth) {
-							clientWidth = baseWidth;
-						}
-						docEl.style.fontSize = baseFontSize * clientWidth / baseWidth + 'px';
-					};
-				recalc();
-				if(!doc.addEventListener) return;
-				win.addEventListener(resizeEvt, recalc, false);
-				doc.addEventListener('DOMContentLoaded', recalc, false);
-			})(document, window);
-		</script>
 	</head>
-
 	<body>
 		<div class="main">
 			<div class="BG">
-				<img src="img/bg_1.jpg" />
-				<img src="img/bg_2.jpg" />
-				<img src="img/bg_3.png" />
-				<img src="img/bg_4.jpg" />
+				<img src="img/bg1.jpg" />
+				<img src="img/bg2.jpg" />
+				<img src="img/bg3.jpg" />
+				<img src="img/bg4.jpg" />
 			</div>
 			<div class="themes">
 				<div class="block">
-					<div class="shopMap" onclick="window.ThemeClient.openProduct(0,2071398,'飞狗moco 顶小猪','4d430d60-afeb-4b8f-a990-804f15ac5605')"></div>
-					<div class="downloadBtn" onclick="window.ThemeClient.openProduct(0,2071398,'飞狗moco 顶小猪','4d430d60-afeb-4b8f-a990-804f15ac5605')"></div>
+					<div class="shopMap" onclick="test('2076114')"></div>
+					<div class="downloadBtn" onclick="test('2076114')"></div>
 				</div>
 				<div class="block">
-					<div class="shopMap" onclick="window.ThemeClient.openProduct(0,2071407,'飞狗moco 许愿','99368779-7b50-4ddb-88c7-e370513dba65')"></div>
-					<div class="downloadBtn" onclick="window.ThemeClient.openProduct(0,2071407,'飞狗moco 许愿','99368779-7b50-4ddb-88c7-e370513dba65')"></div>
+					<div class="shopMap" onclick="test('2076113')"></div>
+					<div class="downloadBtn" onclick="test('2076113')"></div>
 				</div>
 				<div class="block">
-					<div class="shopMap" onclick="window.ThemeClient.openProduct(0,2071400,'飞狗moco 惊喜','108b02ed-9184-417e-9a81-628093045826')"></div>
-					<div class="downloadBtn" onclick="window.ThemeClient.openProduct(0,2071400,'飞狗moco 惊喜','108b02ed-9184-417e-9a81-628093045826')"></div>
+					<div class="shopMap" onclick="test('2076716')"></div>
+					<div class="downloadBtn" onclick="test('2076716')"></div>
 				</div>
 				<div class="block">
-					<div class="shopMap" onclick="window.ThemeClient.openProduct(0,2071405,'飞狗moco 甩屁股','5c9d9d5a-b386-4f9d-924a-04d0e6ed57f2')"></div>
-					<div class="downloadBtn" onclick="window.ThemeClient.openProduct(0,2071405,'飞狗moco 甩屁股','5c9d9d5a-b386-4f9d-924a-04d0e6ed57f2')"></div>
+					<div class="shopMap" onclick="test('2083577')"></div>
+					<div class="downloadBtn" onclick="test('2083577')"></div>
 				</div>
 				<div class="block">
-					<div class="shopMap" onclick="window.ThemeClient.openProduct(0,2071408,'飞狗moco 抓拍','5f563a1b-a453-4c93-a13d-c6ed5d1d8ff6')"></div>
-					<div class="downloadBtn" onclick="window.ThemeClient.openProduct(0,2071408,'飞狗moco 抓拍','5f563a1b-a453-4c93-a13d-c6ed5d1d8ff6')"></div>
+					<div class="shopMap" onclick="test('2076118')"></div>
+					<div class="downloadBtn" onclick="test('2076118')"></div>
 				</div>
 				<div class="block">
-					<div class="shopMap" onclick="window.ThemeClient.openProduct(0,2071403,'飞狗moco 烤柿','6b4fb2c6-4d44-4fef-9e18-6035d2ba1517')"></div>
-					<div class="downloadBtn" onclick="window.ThemeClient.openProduct(0,2071403,'飞狗moco 烤柿','6b4fb2c6-4d44-4fef-9e18-6035d2ba1517')"></div>
+					<div class="shopMap" onclick="test('2076724')"></div>
+					<div class="downloadBtn" onclick="test('2076724')"></div>
 				</div>
-				
+				<!--
+				<div class="heytap" onclick="heytap()">
+				    <img src="img/heytap.png" alt="">
+				</div>
+				-->
+				<div class="heytap" onclick="_hmt.push(['_trackEvent', 'totheme6', 'click', 'warm'])">
+				    <img src="img/heytap.png">
+				</div>
 			</div>
 		</div>
 	</body>
+	<script src="https://cdofs.oppomobile.com/cdo-activity/201811/12/es6-common20181112/jsBridge.js"></script>
+	<script type="text/javascript">
+        (function(doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function() {
+                    var clientWidth = docEl.clientWidth;
+                    var baseWidth = 1080;
+                    var baseFontSize = 100;
+                    if(!clientWidth) {
+                        clientWidth = baseWidth;
+                    }
+                    docEl.style.fontSize = baseFontSize * clientWidth / baseWidth + 'px';
+                };
+            recalc();
+            if(!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+        function test(id) {
+            var url = "oaps://theme/detail?rtp=theme&id="+id+"&openinsystem=true&from=h5"
+            if (window.android && window.android.openActivity) {
+                android.openActivity(url);
+            } else {
+                location.href = url;
+            }
+        }
+        var url = location.href;
+        url = 'oaps://theme/web?u=' + url;
+        if (JsBridge && !JsBridge.inThemeShop) {
+            if (window.android && android.openActivity) {
+                android.openActivity(url);
+            } else {
+                window.open(url);
+            }
+        }
+        function heytap() {
+            ActStat.reportCustom('tovip');
+            var url = "ucvip://vip.themestore.com?pageType=pay";
+            location.href = url;
+        }
 
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?f5e139b0976ab486ae6eea8a663d73de";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+	<script src="https://cdofs.oppomobile.com/cdo-activity/201811/12/es6-common20181112/actStat.js"></script>
+	<script src="https://cdofs.oppomobile.com/cdo-activity/201907/24/dist/actUtils.js"></script>
 </html>
+
+
+	
